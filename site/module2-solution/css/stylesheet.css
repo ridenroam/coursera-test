@@ -7,6 +7,11 @@
 	width: 100%;
 }
 
+h1
+{
+	text-align: center;
+}
+
 p
 {
 	border-width: 0px;
@@ -21,12 +26,13 @@ p
 
 .header
 {
-	height: 50px;
-	width: 33%;
+	height: 30px;
+	width: 30%;
 	border: 1px solid black;
 	position: relative;
 	top: 0px;
-	right: 0px;
+	left:70%;
+	text-align: center;
 }
 
 @media (min-width: 992px)
@@ -65,3 +71,17 @@ p
 		width: 100%;
 	}
 }
+@media (max-width: 767px)
+{
+	.col-md-12
+	{
+		float: left;
+		border: 1px solid red;
+		background-color: #A52A2A;
+	}
+	.col-md-12
+	{
+		width: 100%;
+	}
+}
+
