@@ -1,6 +1,6 @@
 .row
 {
-	width: 100%
+	width: 100%;
 }
 
 @media (min-width: 992px)
@@ -8,24 +8,30 @@
 	.col-lg-4
 	{
 		float: left;
-		border: 1px solid red;
-		width: 33%;
+		border: 1px solid red;		
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px)
-{
-	.col-md-6
+.col-lg-4
 	{
-		float: left;
-		border: 1px solid red;
-		width: 50%;
+		width: 33%;
 	}
 
-	.col-md-6
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6, .col-md-12
 	{
 		float: left;
 		border: 1px solid red;
-		width: 100%;
 	}
+}
+
+.col-md-6
+{
+	width: 50%;
+}
+
+.col-md-12
+{
+	width: 100%;
 }
