@@ -38,7 +38,6 @@ p
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #A52A2A;
 }
 
 .ChickenHeader
@@ -48,7 +47,7 @@ p
 
 .BeefHeader
 {
-	background-color: #d2691e;
+	background-color: #ff7f50;
 }
 
 .SushiHeader
@@ -68,7 +67,7 @@ p
 
 .Sushi
 {
-	background-color: #ff6347;
+	background-color: #A52A2A;
 }
 
 .header
