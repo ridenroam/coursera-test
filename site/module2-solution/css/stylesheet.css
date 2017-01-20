@@ -41,6 +41,36 @@ p
     background-color: #A52A2A;
 }
 
+.ChickenHeader
+{
+	background-color: #808080;
+}
+
+.BeefHeader
+{
+	background-color: #d2691e;
+}
+
+.SushiHeader
+{
+	background-color: #db7093;
+}
+
+.Chicken
+{
+	background-color: #deb887;
+}
+
+.Beef
+{
+	background-color: #b8860b;
+}
+
+.Sushi
+{
+	background-color: #ff6347;
+}
+
 .header
 {
 	height: 25px;
@@ -53,6 +83,7 @@ p
     padding: 2px;
     font-family: Helvetica;
     font-size: 125%;
+    background-color: 
 }
 
 @media (min-width: 992px)
