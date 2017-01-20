@@ -7,7 +7,7 @@
 	width: 100%;
 }
 
-div
+div > div
 {
 	margin:5px;
 }
