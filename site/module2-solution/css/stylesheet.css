@@ -9,6 +9,7 @@
 
 div > div
 {
+	margin: 0px;
 	padding-left: 10px;
     padding-right: 10px;
 }
@@ -38,6 +39,7 @@ p
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #A52A2A;
 }
 
 .header
@@ -58,8 +60,7 @@ p
 {
 	.col-lg-4
 	{
-		float: left;
-		background-color: #A52A2A;	
+		float: left;	
 	}
 
 	.col-lg-4
@@ -74,7 +75,6 @@ p
 	.col-md-6, .col-md-12
 	{
 		float: left;
-		background-color: #A52A2A;
 	}
 
 
@@ -93,7 +93,6 @@ p
 	.col-sm-12
 	{
 		float: left;
-		background-color: #A52A2A;
 	}
 	.col-sm-12
 	{
